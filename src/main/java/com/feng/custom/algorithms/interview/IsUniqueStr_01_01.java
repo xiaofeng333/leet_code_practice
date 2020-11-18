@@ -1,4 +1,4 @@
-package com.feng.custom.algorithms;
+package com.feng.custom.algorithms.interview;
 
 /**
  * 判定字符是否唯一: https://leetcode-cn.com/problems/is-unique-lcci/
@@ -7,7 +7,7 @@ package com.feng.custom.algorithms;
  * 对于ascii字符集, 然后他的代码里有边界检查, 并且针对不同的范围有不同的侧重点, 比如说ascii字符集, 那也就是128个可能性, 16个字节的位运算比较好(定义一个int类型数组, 该位不为0标识已存在)。
  * 如果是unicode, 没有字符范围, 排序后再判断。
  */
-public class IsUniqueStr {
+public class IsUniqueStr_01_01 {
 
     /**
      * 对于全是小写字母的字符串判断

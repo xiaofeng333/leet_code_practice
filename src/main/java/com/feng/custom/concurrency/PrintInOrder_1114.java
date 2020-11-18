@@ -7,12 +7,12 @@ import java.util.concurrent.CountDownLatch;
  * 请设计修改程序，以确保 second() 方法在 first() 方法之后被执行，third() 方法在 second() 方法之后被执行。
  * 解: 可采用cas(定义volatile变量, 循环判断)、条件队列(wait/Condition)、Semaphore、CountDownLatch
  */
-public class PrintInOrder {
+public class PrintInOrder_1114 {
 
     private CountDownLatch second = new CountDownLatch(1);
     private CountDownLatch third = new CountDownLatch(1);
 
-    public PrintInOrder() {
+    public PrintInOrder_1114() {
 
     }
 
