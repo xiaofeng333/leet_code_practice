@@ -1,2 +1,3 @@
 # leet_code_practice
-leet code practice
+[leetcode](https://leetcode-cn.com/)  
+一天一题
