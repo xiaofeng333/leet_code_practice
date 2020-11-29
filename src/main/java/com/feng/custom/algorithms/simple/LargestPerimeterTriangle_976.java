@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 贪心(https://baike.baidu.com/item/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/5411800?fr=aladdin) + 排序
  * 贪心算法是指在对问题进行求解时, 总是做出在当前看来是最好的选择。
  */
-public class LargestPerimeterTriangle {
+public class LargestPerimeterTriangle_976 {
 
     public int largestPerimeter(int[] A) {
         Arrays.sort(A);
