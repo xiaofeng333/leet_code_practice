@@ -1,4 +1,4 @@
-package com.feng.custom.util;
+package com.feng.custom;
 
 /**
  * TODO: 直接生成类文件, 添加相应注释信息
@@ -6,7 +6,7 @@ package com.feng.custom.util;
 public class GenerateClassName {
 
     public static void main(String[] args) {
-        generateClassName("maximum-nesting-depth-of-the-parentheses", 1614);
+        generateClassName("maximum-depth-of-n-ary-tree", 559);
     }
 
     private static void generateClassName(String origin, int order) {
