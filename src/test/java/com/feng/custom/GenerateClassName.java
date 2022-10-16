@@ -6,7 +6,7 @@ package com.feng.custom;
 public class GenerateClassName {
 
     public static void main(String[] args) {
-        generateClassName("maximum-depth-of-n-ary-tree", 559);
+        generateClassName("to-lower-case", 709);
     }
 
     private static void generateClassName(String origin, int order) {

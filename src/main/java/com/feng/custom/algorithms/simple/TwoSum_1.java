@@ -6,6 +6,9 @@ import java.util.Map;
 /**
  * 两数之和: https://leetcode-cn.com/problems/two-sum/
  * 给定一个整数数组nums和一个目标值target, 请你在该数组中找出和为目标值的那两个整数, 并返回他们的数组下标。
+ *
+ * 1. 暴力枚举: 时间复杂度为O(n^2), 空间复杂度是O(1)。
+ * 2. 时间复杂度小于O(n^2): 通过空间换时间, 定义Map解决, 此时时间复杂度为O(n), 空间复杂度也为O(n)。
  */
 public class TwoSum_1 {
 
@@ -22,4 +25,5 @@ public class TwoSum_1 {
         }
         return new int[0];
     }
+
 }
